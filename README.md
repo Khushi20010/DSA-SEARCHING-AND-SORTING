@@ -22,3 +22,15 @@ The repository includes:
   - Push Zeroes to End
 
 ## 🛠 Language & Tools
+- **Language:** C++
+- **Tools:** GCC Compiler, VS Code
+- **Version Control:** Git & GitHub
+
+## 🚀 How to Run
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Khushi20010/DSA-SEARCHING-AND-SORTING.git
+✨ Author
+Anushka  Yadav
+B.Tech | Electronics & Communication Engineering
+GitHub Profile
