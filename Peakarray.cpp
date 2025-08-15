@@ -2,14 +2,15 @@
 #include<vector>
 using namespace std;
 int PeakMountain(vector<int>&arr){
-    int low = 0,  high = arr.size()-1;
+    int low = 0, high = arr.size()-1;
     while(low<high){
-        int mid = (low + high)/2;
-        if(arr[mid] <arr[mid+1]){
+        int mid = low+(high-low)/2;
+        if(arr[mid]<arr[mid+1]) {
             low = mid+1;
+
         }
         else{
-            high =mid;
+            high =  mid;
         }
     }
     return low;

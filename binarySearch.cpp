@@ -17,7 +17,7 @@ return -1;
 int main(){
     vector<int> arr= {2,3,4,5,6,7,88,99};
 
-     int target = 88;
+     int target = 8787;
      int index = targetEle(arr , target);
      if(index!=-1){
         cout<<"Target Element found at this index   "<<index<<endl;

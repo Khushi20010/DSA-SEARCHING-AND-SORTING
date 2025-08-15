@@ -19,7 +19,7 @@ int targetEle(vector<int>&arr , int target){
 } 
 int main(){
     vector<int>arr = {1,1,1,2,2,3,3,3,4,4};
-    int target = 3;
+    int target = 2;
     int index = targetEle(arr , target);
     if(index!=-1){
         cout<<"First Occurence is   "<<index<<endl;
