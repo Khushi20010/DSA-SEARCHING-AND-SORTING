@@ -1,36 +1,35 @@
-# DSA - Searching and Sorting
+# Sorting and Searching in C++
 
-This repository contains my implementations of **Searching** and **Sorting** algorithms in C++ as part of my Data Structures and Algorithms practice.
+This repository contains my implementations of various **Sorting** and **Searching** algorithms in C++.  
+Each program is implemented with clear logic, examples, and easy-to-read code.
+
+
 
 ## 📂 Contents
-The repository includes:
-- **Searching Algorithms**  
-  - Binary Search
-  - Lower Bound
-  - Upper Bound
-  - First Occurrence
-  - Last Occurrence
-  - Peak Element in Mountain Array (LeetCode 852)
 
-- **Sorting Algorithms**  
-  - Bubble Sort (Optimized)
-  - Insertion Sort
-  - Selection Sort
+### 🔍 Searching Algorithms
+- **Binary Search** – Find element in a sorted array.
+- **Linear Search** – Simple element search in any array.
+- **Search in Infinite Sorted Array** – Handles unknown array sizes.
+- **Count Total Occurrences** – Finds how many times an element appears.
+- **Smallest Element in Rotated Sorted Array**
+- **Search in Almost Sorted Array**
 
-- **Mathematical Problems**  
-  - Square Root using Binary Search (LeetCode 69)
-  - Push Zeroes to End
+### 🔄 Sorting Algorithms
+- **Selection Sort**
+- **Bubble Sort** 
+- **Insertion Sort** 
 
-## 🛠 Language & Tools
-- **Language:** C++
-- **Tools:** GCC Compiler, VS Code
-- **Version Control:** Git & GitHub
+---
 
-## 🚀 How to Run
-1. Clone the repository:
+## ⚙ How to Run
+1. Clone this repository:
    ```bash
    git clone https://github.com/Khushi20010/DSA-SEARCHING-AND-SORTING.git
-✨ Author
-Anushka  Yadav
-B.Tech | Electronics & Communication Engineering
-GitHub Profile
+cd DSA-SEARCHING-AND-SORTING
+
+g++ filename.cpp -o output
+
+./output
+
+
